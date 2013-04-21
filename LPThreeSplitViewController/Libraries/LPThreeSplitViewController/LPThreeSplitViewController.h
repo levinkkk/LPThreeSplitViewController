@@ -66,7 +66,7 @@
 
 @property (nonatomic, assign) CGFloat listViewAnimationDuration;
 
-@property (nonatomic, assign) CGFloat gestureListViewAlpha;
+@property (nonatomic, assign) CGFloat gestureListViewOpacity;
 @property (nonatomic, assign) UIColor *gestureListViewColor;
 @property (nonatomic, assign) CGFloat gestureListViewPaddingTop;
 

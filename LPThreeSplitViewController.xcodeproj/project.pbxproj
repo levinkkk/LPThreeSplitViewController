@@ -10,7 +10,6 @@
 		0C0C07C11724391500BF1E9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C07C01724391500BF1E9D /* UIKit.framework */; };
 		0C0C07C31724391500BF1E9D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C07C21724391500BF1E9D /* Foundation.framework */; };
 		0C0C07C51724391500BF1E9D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C07C41724391500BF1E9D /* CoreGraphics.framework */; };
-		0C0C07CB1724391500BF1E9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C07C91724391500BF1E9D /* InfoPlist.strings */; };
 		0C0C07CD1724391500BF1E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C07CC1724391500BF1E9D /* main.m */; };
 		0C0C07D11724391500BF1E9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C0C07D01724391500BF1E9D /* AppDelegate.m */; };
 		0C0C07D31724391500BF1E9D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C07D21724391500BF1E9D /* Default.png */; };
@@ -24,6 +23,8 @@
 		0C0C07F1172439A900BF1E9D /* ListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C07EA172439A900BF1E9D /* ListViewController.xib */; };
 		0C0C07F2172439A900BF1E9D /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C0C07EB172439A900BF1E9D /* MenuViewController.xib */; };
 		0C0C07F4172439B300BF1E9D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0C07F3172439B300BF1E9D /* QuartzCore.framework */; };
+		0C106E251724533C0031C15C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C106E231724533C0031C15C /* InfoPlist.strings */; };
+		0C106E2A172453DE0031C15C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0C106E28172453DE0031C15C /* InfoPlist.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,7 +33,6 @@
 		0C0C07C21724391500BF1E9D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		0C0C07C41724391500BF1E9D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		0C0C07C81724391500BF1E9D /* LPThreeSplitViewController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPThreeSplitViewController-Info.plist"; sourceTree = "<group>"; };
-		0C0C07CA1724391500BF1E9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0C0C07CC1724391500BF1E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C0C07CE1724391500BF1E9D /* LPThreeSplitViewController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPThreeSplitViewController-Prefix.pch"; sourceTree = "<group>"; };
 		0C0C07CF1724391500BF1E9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,6 +52,8 @@
 		0C0C07EA172439A900BF1E9D /* ListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewController.xib; sourceTree = "<group>"; };
 		0C0C07EB172439A900BF1E9D /* MenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
 		0C0C07F3172439B300BF1E9D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0C106E241724533C0031C15C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C106E29172453DE0031C15C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = InfoPlist.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +115,9 @@
 		0C0C07C71724391500BF1E9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0C106E27172453DE0031C15C /* en.lproj */,
+				0C106E231724533C0031C15C /* InfoPlist.strings */,
 				0C0C07C81724391500BF1E9D /* LPThreeSplitViewController-Info.plist */,
-				0C0C07C91724391500BF1E9D /* InfoPlist.strings */,
 				0C0C07CC1724391500BF1E9D /* main.m */,
 				0C0C07CE1724391500BF1E9D /* LPThreeSplitViewController-Prefix.pch */,
 				0C0C07D21724391500BF1E9D /* Default.png */,
@@ -162,6 +165,14 @@
 				0C0C07EB172439A900BF1E9D /* MenuViewController.xib */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		0C106E27172453DE0031C15C /* en.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				0C106E28172453DE0031C15C /* InfoPlist.strings */,
+			);
+			path = en.lproj;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,13 +226,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0C0C07CB1724391500BF1E9D /* InfoPlist.strings in Resources */,
 				0C0C07D31724391500BF1E9D /* Default.png in Resources */,
 				0C0C07D51724391500BF1E9D /* Default@2x.png in Resources */,
 				0C0C07D71724391500BF1E9D /* Default-568h@2x.png in Resources */,
 				0C0C07F0172439A900BF1E9D /* DetailViewController.xib in Resources */,
 				0C0C07F1172439A900BF1E9D /* ListViewController.xib in Resources */,
 				0C0C07F2172439A900BF1E9D /* MenuViewController.xib in Resources */,
+				0C106E251724533C0031C15C /* InfoPlist.strings in Resources */,
+				0C106E2A172453DE0031C15C /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,10 +256,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		0C0C07C91724391500BF1E9D /* InfoPlist.strings */ = {
+		0C106E231724533C0031C15C /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				0C0C07CA1724391500BF1E9D /* en */,
+				0C106E241724533C0031C15C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0C106E28172453DE0031C15C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0C106E29172453DE0031C15C /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -354,6 +374,7 @@
 				0C0C07DC1724391500BF1E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

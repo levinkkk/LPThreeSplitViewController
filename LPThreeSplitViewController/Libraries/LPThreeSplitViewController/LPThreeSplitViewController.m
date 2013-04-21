@@ -40,7 +40,7 @@
 @synthesize listViewAnimationDuration;
 @synthesize listPortraitClosing;
 @synthesize showListViewControllerWhenRotate;
-@synthesize gestureListViewAlpha;
+@synthesize gestureListViewOpacity;
 @synthesize gestureListViewColor;
 @synthesize gestureListViewPaddingTop;
 
@@ -53,11 +53,11 @@
         self.listViewController=listViewController;
         self.detailViewController=detailViewController;
         
-        self.menuWidthLandscape=100.0f;
-        self.menuWidthPortrait=100.0f;
+        self.menuWidthLandscape=120.0f;
+        self.menuWidthPortrait=120.0f;
         
-        self.listWidthLandscape=200.0f;
-        self.listWidthPortrait=200.0f;
+        self.listWidthLandscape=240.0f;
+        self.listWidthPortrait=240.0f;
         
         self.listPortraitClosing=YES;
         self.showListViewControllerWhenRotate=YES;
@@ -73,7 +73,7 @@
         self.listViewShadowOpacity=1.0f;
         
         self.listViewAnimationDuration=0.25;
-        self.gestureListViewAlpha=0.3;
+        self.gestureListViewOpacity=0.3;
         self.gestureListViewColor=[UIColor blackColor];
         self.gestureListViewPaddingTop=44.0f;
     }
@@ -201,7 +201,7 @@
     if(self.listPortraitClosing)
     {
         gestureListView.backgroundColor=self.gestureListViewColor;
-        gestureListView.alpha=self.gestureListViewAlpha;
+        gestureListView.alpha=self.gestureListViewOpacity;
     } else {
         gestureListView.backgroundColor=[UIColor clearColor];
         gestureListView.alpha=0.0f;

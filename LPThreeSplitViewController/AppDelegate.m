@@ -25,11 +25,12 @@
     UINavigationController *navigationControllerMenuView = [[UINavigationController alloc] initWithRootViewController:menuViewController];
     
     self.threeSplitViewController = [[LPThreeSplitViewController alloc] initWithMenuViewController:navigationControllerMenuView ListViewController:navigationControllerListView DetailViewController:navigationControllerDetailView];
-    self.threeSplitViewController.delegate=menuViewController;   //LPThreeViewControllerDelegate
+    self.threeSplitViewController.delegate=menuViewController;
     
     self.window.rootViewController=self.threeSplitViewController;
     
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
