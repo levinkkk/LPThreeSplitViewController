@@ -1,7 +1,7 @@
 #LPThreeSplitViewController
 
-LPThreeSplitViewController is custom UISplitViewController with three views (MenuView,ListView,DetailView) for iOS devices. MenuView and DetailView is always visible, ListView can be always visible or using sliding animation for open or close.
-ViewControllers contains UINavigationController so it's easy to make standard navigation by pushing and piping UIViewControllers.
+LPThreeSplitViewController is custom UISplitViewController with three views (MenuView,ListView,DetailView) for iOS devices. MenuView and DetailView are always visible, ListView visibility can be toggled.
+ViewControllers contains UINavigationController so it's easy to make standard navigation by pushing and poping UIViewControllers.
 
 [![](http://flash-electronics.si/GitHub/LPThreeSplitViewController/img1.png)](http://flash-electronics.si/GitHub/LPThreeSplitViewController/img1.png)
 [![](http://flash-electronics.si/GitHub/LPThreeSplitViewController/img2.png)](http://flash-electronics.si/GitHub/LPThreeSplitViewController/img2.png)
@@ -12,11 +12,9 @@ LPThreeSplitViewController works on any iOS version and is compatible with both 
 
 Configuration options:
 
-* MenuView width for landscape orientation
-* MenuView width for portrait orientation
-* ListView width for landscape orientation
-* ListView width for portrait orientation
-* ListView in portrait orientation can close or no (Default: YES)
+* MenuView width for landscape and portrait orientation
+* ListView width for landscape and portrait orientation
+* ListView in portrait orientation can be visible or hidden (Default: YES)
 * Show ListView when rotate to portrait orientation (Default: YES)
 * MenuView shadow color (Default: black)
 * MenuView shadow radius (Default: 2.5f)
